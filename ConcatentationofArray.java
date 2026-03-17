@@ -1,5 +1,7 @@
 package neetcode250;
 
+import java.util.Arrays;
+
 public class ConcatentationofArray {
 
 	
@@ -9,7 +11,8 @@ public class ConcatentationofArray {
 
 	        for(int i=0;i<length*2;i++)
 	            ans[i]=nums[i%length];
-	    
+	        
+	    Arrays.stream(ans).forEach(System.out::println);
 	    return ans;
 	    }
 	   
