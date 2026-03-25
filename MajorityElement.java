@@ -1,5 +1,7 @@
 package neetcode250;
 
+import java.util.HashMap;
+
 public class MajorityElement {
 
 	    public int majorityElement(int[] nums) {
