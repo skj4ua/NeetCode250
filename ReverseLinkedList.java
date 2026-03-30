@@ -11,7 +11,6 @@ public class ReverseLinkedList {
 	 *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 	 * }
 	 */
-
 	    public ListNode reverseList(ListNode head) {
 	        ListNode current=head;
 	        ListNode prev=null;
